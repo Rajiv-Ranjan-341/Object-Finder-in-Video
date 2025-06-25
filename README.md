@@ -118,6 +118,7 @@ Then place the new weights file as yolov8n.pt in the project folder.
 
 📄 License
 This project is for educational and experimental purposes. Be sure to follow licensing of:
--YOLOv8 by Ultralytics
--Tesseract OCR
+
+YOLOv8 by Ultralytics
+Tesseract OCR
 
