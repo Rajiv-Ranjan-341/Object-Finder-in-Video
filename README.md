@@ -55,23 +55,23 @@ pip install -r requirements.txt
    
 If you're using OCR features, install Tesseract OCR and set the path:
 
-### Install Tesseract
--Download the Tesseract installer from the official repo:
-https://github.com/tesseract-ocr/tesseract/wiki
--Direct link to the latest Windows installer:
-https://github.com/UB-Mannheim/tesseract/wiki
-Download and run the .exe installer (choose the default path or remember the install location).
+## Install Tesseract
+- Download the Tesseract installer from the official repo:
+https://github.com/tesseract-ocr/tesseract/wiki .
+- Direct link to the latest Windows installer:
+https://github.com/UB-Mannheim/tesseract/wiki . 
+- Download and run the .exe installer (choose the default path or remember the install location).
 
-###Add Tesseract to Your System PATH
+##Add Tesseract to Your System PATH
 -If you chose the default path, it will be something like:
-C:\Program Files\Tesseract-OCR
+C:\Program Files\Tesseract-OCR .
 -Add this folder to your Windows PATH:
-1.Press Win + S, type environment variables, and open "Edit the system environment variables".
-2.Click "Environment Variables".
-3.Under "System variables", find and select Path, then click "Edit".
-4.Click "New" and add:
-C:\Program Files\Tesseract-OCR
-5.Click OK on all dialogs.
+1. Press Win + S, type environment variables, and open "Edit the system environment variables".
+2. Click "Environment Variables".
+3. Under "System variables", find and select Path, then click "Edit".
+4. Click "New" and add:
+    C:\Program Files\Tesseract-OCR
+5. Click OK on all dialogs.
 
 # In app.py
 pytesseract.pytesseract.tesseract_cmd = r'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
