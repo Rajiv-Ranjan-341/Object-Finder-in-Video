@@ -1,4 +1,4 @@
-# 🔍 AI-Based Object Finder in Video using YOLOv8 and Streamlit
+# 🔍 AI-Based Object Finder in Video using YOLOv8
 
 This project is a Streamlit-based web application that allows users to upload a video file (MP4), detect specific objects (e.g.,  cars, persons) using the YOLOv8 model, and optionally extract text using Tesseract OCR. It’s designed for efficient object detection and visualization frame-by-frame.
 
